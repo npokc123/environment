@@ -1,0 +1,39 @@
+{
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "gitlens.defaultDateShortFormat": null,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.cursorBlinking": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "redhat.telemetry.enabled": true,
+  "i18n-ally.displayLanguage": "ru",
+  "window.zoomLevel": 1,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "editor.fontFamily": "Martian Mono",
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": true,
+  "editor.fontWeight": "normal"
+}

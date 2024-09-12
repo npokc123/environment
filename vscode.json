@@ -1,0 +1,104 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript][vue][typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "vscode.markdown-language-features"
+  },
+  "[postcss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "gitlens.defaultDateShortFormat": null,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.cursorBlinking": true,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "workbench.startupEditor": "none",
+  "i18n-ally.displayLanguage": "ru",
+  "window.zoomLevel": 1,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.fontFamily": "Martian Mono",
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "playwright.reuseBrowser": false,
+  "playwright.showTrace": true,
+  "editor.fontWeight": "normal",
+  "css.validate": false,
+  "dev.containers.defaultExtensions": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "codeium.codeium",
+    "eamodio.gitlens",
+    "vue.volar",
+    "ms-playwright.playwright",
+    "stylelint.vscode-stylelint"
+  ],
+  "dotfiles.installCommand": "devcontainer/install-dotfiles",
+  "dotfiles.repository": "npokc123/environment",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.rulers": [80],
+  "editor.wordWrap": "on",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "svelte"
+  ],
+  "eslint.run": "onSave",
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "prettier.arrowParens": "avoid",
+  "prettier.quoteProps": "consistent",
+  "prettier.requireConfig": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "remote.downloadExtensionsLocally": true,
+  "scss.validate": false,
+  "stylelint.config": { "run": "onSave" }
+}
