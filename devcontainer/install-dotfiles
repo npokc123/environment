@@ -19,7 +19,7 @@ fi
 curl -sS https://starship.rs/install.sh > starship.sh
 chmod a+x starship.sh
 mkdir -p ~/.local/bin
-./starship.sh -y -b ~/.local/bin
+./starship.sh -y -b /usr/local/bin
 rm starship.sh
 
 mkdir -p ~/.local/share/zsh
