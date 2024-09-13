@@ -1,6 +1,6 @@
 HISTSIZE=10000
 SAVEHIST=10000
-HISTFILE=~/.local/share/history/histfile
+HISTFILE=/home/npokc/.shell-history/.zsh_history
 setopt appendhistory
 setopt inc_append_history
 setopt hist_ignore_all_dups
@@ -41,11 +41,13 @@ alias ..='cd ..'
 alias l='eza --all'
 alias ll='eza --long --all --git'
 
-if command -v bat > /dev/null 2>&1; then
-  alias cat='bat'
+if command --version batcat > /dev/null 2>&1; then
+  alias cat='batcat'
 fi
 if command -v eza > /dev/null 2>&1; then
   alias ls='eza'
 fi
 
 export NODE_COMPILE_CACHE=~/.cache/node
+
+echo ".zshrc config is loaded"

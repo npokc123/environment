@@ -1,5 +1,5 @@
 {
-  "image": "npokc-fedora-dev:latest",
+  "image": "npokc-ubuntu:latest",
   "forwardPorts": [],
   "mounts": [
     {
@@ -8,14 +8,12 @@
       "type": "volume"
     },
     {
-      "source": "shell-history",
-      "target": "/home/npokc/.local/share/history/",
-      "type": "volume"
+      "source": "${localWorkspaceFolder}/.devcontainer/.shell-history",
+      "target": "/home/npokc/.shell-history",
+      "type": "bind"
     }
   ],
-  "workspaceMount": "",
   "runArgs": [
-    "--volume=${localWorkspaceFolder}:/workspaces/${localWorkspaceFolderBasename}",
     "--network=host"
   ]
 }
