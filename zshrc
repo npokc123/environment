@@ -23,7 +23,9 @@ if [[ -d ~/.local/share/zsh/zsh-history-substring-search/ ]]; then
 fi
 
 # Local binaries
-export PATH="~/.local/bin/:$PATH"
+export PATH=/usr/local/bin:${PATH}
+
+echo $PATH
 
 if command -v starship > /dev/null 2>&1; then
   eval "$(starship init zsh)"

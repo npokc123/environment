@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-echo "run dotfiles"
 
 mkdir -p ~/.config/micro
 mkdir -p ~/.config/bat
