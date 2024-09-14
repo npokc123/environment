@@ -1,0 +1,18 @@
+Host *
+    ForwardAgent no
+
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519
+    IdentitiesOnly yes
+
+Host gl.n-l-c.ru
+    HostName gl.n-l-c.ru
+    User git
+    IdentityFile ~/.ssh/id_ed25519_sitronics
+    IdentitiesOnly yes
+
+GSSAPIAuthentication no
+TCPKeepAlive yes
+ServerAliveInterval 3

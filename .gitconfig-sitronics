@@ -1,0 +1,4 @@
+[user]
+  name  = Andrey Novikov
+  email = adnovikov@sitronics.com
+  signingKey = key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC7E1HlPkG23+ZLTvqt6p81Zj/6Xz3NOBrfUrN3mF+l+ adnovikov@sitronics.com
