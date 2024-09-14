@@ -1,9 +1,11 @@
 [user]
   name  = Andrey Novikov
   email = npokc123@gmail.com
-  signingKey = key::ssh-ed25519 wO+BAmGwb6Yoq8909eTvkc0rhXw5dayQ/GfJEcHe2J8 npokc123@gmail.com
-[includeIf "gitdir/i:C:/dev/sitronics"]
-	path = .gitconfig-sitronics
+  signingKey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDljb3hZgqeSmN4rSfbNJOZueCv5oJGMqIOaPuk6BvRl npokc123@gmail.com
+[includeIf "gitdir:C:/dev/sitronics/**"]
+    path = .gitconfig-sitronics
+[includeIf "gitdir:~/Dev/sitronics/**"]
+    path = .gitconfig-sitronics
 [alias]
   current-branch = "!git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \\(.*\\)/\\1/'"
   a  = "!git add . && git s"
@@ -28,10 +30,6 @@
   hooksPath = /dev/null
 [init]
   defaultBranch = main
-[gpg]
-  format = ssh
-[commit]
-  gpgsign = true
 [push]
   default = current
   followtags = true
@@ -41,3 +39,12 @@
   algorithm = histogram
   colorMoved = true
   indentHeuristic = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
