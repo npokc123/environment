@@ -48,3 +48,5 @@
 	gpgsign = true
 [gpg]
 	format = ssh
+[safe]
+	directory = *
