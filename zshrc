@@ -42,7 +42,7 @@ alias ..='cd ..'
 alias l='eza --all'
 alias ll='eza --long --all --git'
 
-if command --version batcat > /dev/null 2>&1; then
+if command -v batcat > /dev/null 2>&1; then
   alias cat='batcat'
 fi
 if command -v eza > /dev/null 2>&1; then
